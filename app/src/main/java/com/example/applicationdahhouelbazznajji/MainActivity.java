@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent=new Intent(getBaseContext(),DeuxiemeActivite.class);
+                System.out.println("test");
                 intent.putExtra("nom","dahhou");
                 intent.putExtra("prenome","ilyas");
                 startActivity(intent);
@@ -37,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent=new Intent(Intent.ACTION_VIEW);
-                intent.setData(Uri.parse("http://www.inpt.ac.ma"))
+                intent.setData(Uri.parse("http://www.inpt.ac.ma"));
                 startActivity(intent);
             }
         });
