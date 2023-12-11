@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent=new Intent(getBaseContext(),DeuxiemeActivite.class);
                 intent.putExtra("nom","dahhou");
-                intent.putExtra("prénome","ilyas");
+                intent.putExtra("prenome","ilyas");
                 startActivity(intent);
             }
         });
