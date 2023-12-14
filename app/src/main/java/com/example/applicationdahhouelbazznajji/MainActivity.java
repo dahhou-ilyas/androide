@@ -22,7 +22,6 @@ public class MainActivity extends AppCompatActivity {
 
         bouton_explicite=(Button) findViewById(R.id.button);
         bouton_implicite=(Button) findViewById(R.id.button2);
-
         bouton_explicite.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
